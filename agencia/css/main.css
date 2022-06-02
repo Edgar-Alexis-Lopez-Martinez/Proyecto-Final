@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Nunito:ital,wght@1,300&family=Roboto+Condensed:wght@700&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+#idtoprowheader {
+  margin-bottom: 10px;
+}
+
+#navheader {
+  background: #2730d9d3;
+}
+
+aside {
+  margin-top: 30px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  margin-right: 90px;
+}
+
+footer {
+  background-color: #2730d9d3;
+}
+#menu_inferior {
+  color: aliceblue;
+}
+
+#menu_inferior ul {
+  list-style-type: none;
+}
+
+#menu_inferior li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#menu_inferior ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+footer h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #000000;
+}
+
+.margileft {
+  margin-left: 60px;
+}
+
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li,
+#navlist a {
+  height: 50px;
+  display: block;
+}
+
+#iconofb {
+  background: url("../images/sprite.png") no-repeat -61px -381px;
+  width: 50px;
+  height: 50px;
+}
+
+#iconofb a:hover {
+  background: url("../images/sprite.png") no-repeat -61px -81px;
+  width: 50px;
+}
+
+#iconoyt {
+  background: url("../images/sprite.png") no-repeat -361px -381px;
+  width: 50px;
+
+  left: 100px;
+}
+
+#iconoyt a:hover {
+  background: url("../images/sprite.png") no-repeat -361px -81px;
+  width: 50px;
+  height: 50px;
+  left: 100px;
+}
+
+#iconotw {
+  background: url("../images/sprite.png") no-repeat -421px -381px;
+  width: 50px;
+  height: 50px;
+  left: 170px;
+}
+
+#iconotw a:hover {
+  background: url("../images/sprite.png") no-repeat -421px -81px;
+  width: 50px;
+  height: 50px;
+  left: 200px;
+}
+
+#sectionmapa {
+  margin-left: 90px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#maincostos {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#imgmapawhats {
+  width: 20px;
+  height: 20px;
+}
